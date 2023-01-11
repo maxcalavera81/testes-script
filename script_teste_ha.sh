@@ -35,7 +35,7 @@ update_hostname() {
 # ------------------------------------------------------------------------------
 # Repair apparmor and cgroups
 # ------------------------------------------------------------------------------
-Repair_apparmor_and_cgroups() {
+repair_apparmor_and_cgroups() {
   echo ""
   echo "A reparar alertas de apparmor e cgroups"
   echo ""
@@ -127,6 +127,7 @@ main() {
 
   # Install ALL THE THINGS!
   update_hostname
+  repair_apparmor_and_cgroups
   install_armbian-software
   install_dependences
   install_docker
