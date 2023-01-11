@@ -13,7 +13,7 @@ set -o pipefail # Return exit status of the last command in the pipe that failed
 # ==============================================================================
 # GLOBALS
 # ==============================================================================
-readonly HOSTNAME="homeassistant"
+#readonly HOSTNAME="homeassistant"
 
 # ==============================================================================
 # SCRIPT LOGIC
